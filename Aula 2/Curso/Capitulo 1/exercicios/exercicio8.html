@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula8</title>
+</head>
+<body>
+    <form action="">
+        <fieldset >
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input id="nome" name="" type="text">
+
+                <label for="sobrenome">Sobrenome:</label>
+                <input id="sobrenome" name="" type="text">
+            
+            </div>
+            
+            <div><br>  
+                <label for="nascimento">Nascimento</label>
+                <input id="nascimento" name="" type="date">
+            </div>
+            
+            <div><br>
+                <label for="RG">RG</label>
+                <input id="RG" name="" type="text">
+            </div>
+            
+            <div><br>
+                <label for="CPF">CPF</label>
+                <input id="CPF" name="" type="text">
+            </div>
+        </fieldset>
+
+        <fieldset >
+            <legend>Dados Endereço</legend>
+            <div>
+                <label for="Rua">Rua</label>
+                <input id="Rua" name="" type="text">
+
+                <label for="Numero">Numero:</label>
+                <input id="Numero" name="" type="number">
+            
+            </div>
+            
+            <div><br>  
+                <label for="Bairro">Bairro</label>
+                <input id="Bairro" name="" type="text">
+            </div>
+            
+            <div><br>
+                <label for="Estado">Estado</label>
+                <select name="" id="Estado">
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="SP">SP</option>
+                    <option value="RJ">RJ</option>
+                </select>
+            </div>
+            
+            <div><br>
+                <label for="Cidade">Cidade</label>
+                <input id="Cidade" name="" type="text">
+            </div>
+
+            <div><br>
+                <label for="CEP">CEP</label>
+                <input id="CEP" name="" type="text">
+            </div>
+        </fieldset>
+
+        <fieldset >
+            <legend>Dados de Login</legend>
+            <div>
+                <label for="Email">E-mail</label>
+                <input id="Email" name="" type="text">            
+            </div>
+            
+            <div><br>  
+                <label for="Perfil">Imagem de Perfil</label>
+                <input id="Perfil" name="" type="file" accept="image/png,image/jpg">
+            </div>
+            
+            <div><br>
+                <label for="Login">Login de Usuario</label>
+                <input id="Login" name="" type="text">
+            </div>
+
+            <div><br>
+                <label for="Email2">E-mail</label>
+                <input id="Email2" name="" type="text">            
+            </div>
+                
+            <div><br>  
+                <label for="Perfil2">Imagem de Perfil</label>
+                <input id="Perfil2" name="" type="fele" accept="image/png,image/jpg">
+            </div>
+                
+            <div><br>
+                <label for="Login2">Login de Usuario</label>
+                <input id="Login2" name="" type="text">
+            </div>
+    
+        </fieldset>
+
+        <fieldset >
+            <legend>Pesquisa de Interesse:</legend>
+            <div><br>
+                <label for="Web">você deseja trabalhar como Webmaster?</label><br>
+                Sim<input  name="option" type="radio" Value="Sim">
+                Nao<input  name="option" type="radio" Value="Não">
+                Talvez<input name="option" type="radio" Value="Talvez">
+                Quem Sabe<input name="option" type="radio" Value="Quem Sabe">
+            </div>
+
+            <div><br>
+                <label for="Web">O que você deseja aprender?</label><br>
+                HTML<input Value="HTML" name="option2" type="radio">
+                CSS<input Value="CSS" name="option2" type="radio">
+                JavaScript<input Value="JavaScript" name="option2" type="radio">
+                Django<input Value="Django" name="option2" type="radio">
+            </div>
+
+            <div><br>
+                <textarea placeholder="Deixe um Comentario" id="" cols="30" rows="10" ></textarea>
+            </div>
+        </fieldset>
+        
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
