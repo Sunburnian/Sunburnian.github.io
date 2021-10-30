@@ -44,3 +44,9 @@ footer{
     text-align: center;
     color: aliceblue;
 }
+p{
+    padding-bottom: 7px;
+}
+h2{
+    padding-bottom: 10px;
+}
