@@ -11,23 +11,37 @@ body{
     margin-right:70px;
 }
 header{
-    display: flex;
-    margin-right: 10px;
+    margin-bottom: 15px;
 }
-
+header>div>ul>li>a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0px 31px 0px 31px;    
+}
+header>div>ul>li{
+    margin: 0px 8px 0px 8px;
+}
 
 /*classe*/
-.container-header-main{
-    display: inline;
-    
-}
-.container-header{
-    display: flex;
-}
-.pesquisa{
-    display: flex;    
+/*header*/
+.pesquisa{    
     margin-top: 10px;
-   
+}
+.header-container{
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+.navegacao{
+    display: flex;
+    justify-content:end;
+}
+
+/*main*/
+.main-container{
+    display: flex;
+    height: 100vh;
+    background-color: black;
 }
 
 /*id'*/
@@ -42,16 +56,19 @@ header{
     padding-right:5px;
     margin-right: 3px;
 }
+
 #logo{
-    padding-right: 50vh;
+    
     margin-top: 1vh;
 }
+
 
 /*pontual*/
 li{
     display: inline;
     padding: 10px;    
 }
+
 ul{
     margin-top: 10px;
 }
