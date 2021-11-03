@@ -17,6 +17,7 @@ header>div>ul>li>a{
     text-decoration: none;
     border: 1px solid black;
     padding: 0px 31px 0px 31px;    
+    color: black;
 }
 header>div>ul>li{
     margin: 0px 8px 0px 8px;
@@ -71,4 +72,9 @@ li{
 
 ul{
     margin-top: 10px;
+}
+
+/*pseudo*/
+header>div>ul>li>a:hover{
+    padding: 10px 33px 10px 33px;
 }
