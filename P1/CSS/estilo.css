@@ -41,8 +41,44 @@ header>div>ul>li{
 /*main*/
 .main-container{
     display: flex;
-    height: 100vh;
-    background-color: black;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.esq{
+    
+}
+.esq>ul>li{
+    display: block;
+}
+
+.central{
+    width: 520px;
+    justify-content: center;
+    align-content: center;
+    
+}
+.central>ul>li{
+    display: block;
+}
+.container-art1{
+    display: flex;
+    background-color: rgb(196, 196, 196);
+    padding: 8px;
+}
+
+
+.dir{
+
+}
+.dir>ul>li{
+   display: block;
+}
+
+
+.divs-na-main-para-article{
+    padding-right: 8px;
+    
 }
 
 /*id'*/
@@ -62,6 +98,7 @@ header>div>ul>li{
     
     margin-top: 1vh;
 }
+
 
 
 /*pontual*/
