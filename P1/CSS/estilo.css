@@ -77,8 +77,7 @@ header>div>ul>li{
 
 
 .divs-na-main-para-article{
-    padding-right: 8px;
-    
+    padding-right: 8px;    
 }
 
 /*id'*/
@@ -97,6 +96,11 @@ header>div>ul>li{
 #logo{
     
     margin-top: 1vh;
+}
+
+#gambiarra{
+    float: right;
+    margin: 8px 0px 0px 0px;
 }
 
 
