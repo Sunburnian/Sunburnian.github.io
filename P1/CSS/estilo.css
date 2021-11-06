@@ -9,9 +9,13 @@
 body{
     margin-left:70px;
     margin-right:70px;
+    background-color: rgb(211, 208, 208);
 }
 header{
     margin-bottom: 15px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
 }
 header>div>ul>li>a{
     text-decoration: none;
@@ -21,6 +25,10 @@ header>div>ul>li>a{
 }
 header>div>ul>li{
     margin: 0px 8px 0px 8px;
+}
+main{
+    background-color: white;
+    border-radius: 10px;
 }
 
 /*classe*/
@@ -42,7 +50,7 @@ header>div>ul>li{
 .main-container{
     display: flex;
     justify-content: space-between;
-    height: 90vh;
+    height: auto;
 }
 
 .esq{
@@ -61,23 +69,51 @@ header>div>ul>li{
 .central>ul>li{
     display: block;
 }
-.container-art1{
-    display: flex;
+.container-art{
     background-color: rgb(196, 196, 196);
     padding: 8px;
-}
-
-
-.dir{
-
+    border-radius: 6px;
 }
 .dir>ul>li{
    display: block;
 }
 
-
 .divs-na-main-para-article{
     padding-right: 8px;    
+}
+
+.LiDaBarraDePesquisaNaMain{
+    display: block;
+    border: 1px solid black;
+    margin: 0px 0px 5px 0px;
+    
+}
+
+.ArrumarOLinkT{
+    border: 1px solid black;
+    padding: 0px 0px 0px 10px;
+}
+/*Imagem*/
+.resise{
+    height:auto;
+    width: 300px;
+
+}
+.resisedois{
+    height: 300px;
+}
+
+.arrumandoBarraLateralDir{
+    margin:10px 0px 0px 0px;
+    background-color: rgb(196, 196, 196);
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.container-rodape{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px 0px 0px;
 }
 
 /*id'*/
@@ -101,6 +137,10 @@ header>div>ul>li{
 #gambiarra{
     float: right;
     margin: 8px 0px 0px 0px;
+}
+
+#fon{
+    ;
 }
 
 
