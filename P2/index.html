@@ -1,12 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>P2</title>
+    <script src="codigo.js"></script>
 </head>
 <body>
-    
+    <form action="">
+        <fieldset>
+            <div>
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Telefone">
+            </div>
+            
+            <br>
+            
+            <div>
+                <div>
+                    <label for="retirada">Cidade de retirada</label>
+                    <select name="" id="retirada">
+                        <option value="Campos dos Goytacazes - RJ">Campos dos Goytacazes - RJ</option>
+                        <option value="Rio de Janeiro - RJ">Rio de Janeiro - RJ</option>
+                        <option value="Vitória - ES">Vitória - ES</option>
+                    </select>
+                </div>
+            
+                <br>
+            
+                <div>
+                    <label for="Entrega">Cidade de Entrega</label>
+                    <select name="" id="Entrega">
+                        <option value="Campos dos Goytacazes - RJ">Campos dos Goytacazes - RJ</option>
+                        <option value="Rio de Janeiro - RJ">Rio de Janeiro - RJ</option>
+                        <option value="Vitória - ES">Vitória - ES</option>
+                    </select>
+                </div>
+            </div>
+
+            <br>
+
+            <div>
+                <div>
+                    <label for="data_entrega">Data de retirada</label>
+                    <input type="date" name="data_entrega" id="data_entrega">
+                </div>
+                
+                <br>
+                
+                <div>
+                    <label for="devol">Data de devolução</label>
+                    <input type="date" name="devolução" id="entrega">
+                </div>
+
+            </div>
+
+            <div>
+                <label for="carro">tipo de carro:</label>
+                    <select name="" id="carro">
+                        <option value="119">basico R$119,00</option>
+                        <option value="199">basico com ar R$199,00</option>
+                        <option value="299">Executivo - R$299,00</option>
+                    </select>
+            </div>
+        </fieldset>
+        <br>
+        <br>
+        <button type="submit" onclick="verificar()">Enviar</button>
+    </form>
 </body>
 </html>
